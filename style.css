@@ -1,1 +1,72 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f2f2f2;
+}
 
+header {
+  padding: 10px;
+  margin: 0px;
+  background-color: rgb(83, 113, 242);
+  color: white;
+  text-align: center;
+}
+main {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+div {
+  background-color: white;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  margin: 0px;
+  padding: 10px 60px 10px 60px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: rgb(83, 113, 242);
+}
+h3 {
+  color: rgb(83, 113, 242);
+}
+
+.card:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex {
+  gap: 100px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
+img:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  margin: 0px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(80, 81, 82);
+  text-align: center;
+}
